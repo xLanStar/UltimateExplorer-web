@@ -19,9 +19,9 @@ const FileType = {
 }
 
 const fileExtensions = {
-	[FileType.Music]: ['mp3', 'flac', 'ogg', 'wav'],
+	[FileType.Music]: ['mp3', 'flac', 'ogg', 'aac', 'wav', 'wma', 'rm'],
 	[FileType.Video]: ['mp4', 'mpeg', 'mov', 'mkv', 'avi', 'flv'],
-	[FileType.Picture]: ['jpg', 'png', 'bmp'],
+	[FileType.Picture]: ['jpg', 'jpeg', 'png', 'webp', 'gif', 'bmp'],
 	[FileType.Text]: ['txt'],
 	[FileType.Unknown]: [],
 }
