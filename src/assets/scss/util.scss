@@ -1,0 +1,50 @@
+// SECTION_TYPE: [sort]class
+
+// HoverBackgroundColor
+.hbc {
+	background-color: var(--cd);
+
+	&:hover {
+		background-color: var(--cl);
+	}
+}
+
+//ClickAble
+.ca {
+	cursor: pointer;
+	color: var(--ct);
+
+	&:hover {
+		color: varl(--clt);
+	}
+}
+
+//Selectable
+.sa {
+	user-select: text;
+}
+
+.title {
+	font-size: $font-size-title;
+}
+
+.article {
+	font-size: $font-size-article;
+}
+
+.icon {
+    height: 40px;
+    width: auto;
+}
+// SECTION_TYPE: Var-Value
+.fc {
+	display: flex;
+	flex-direction: column;
+}
+.fr {
+	display: flex;
+	flex-direction: row;
+}
+.g {
+	gap: $gap;
+}

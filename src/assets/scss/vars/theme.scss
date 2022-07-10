@@ -1,0 +1,37 @@
+@mixin dark-theme {
+    --cdbg: #17171f;
+    --cdbg_rgb: 23, 23, 31;
+    --clbg: #1e2224;
+    --cd: #242b3b;
+    --cl: #405381;
+    --cdt: #5988ac;
+    --clt: #9fbde8;
+    --co: white;
+    // --cdt: #1a4b7b;
+    // --clt: #7b9cc9;
+}
+@mixin light-theme {
+    --cdbg: #9ebde6;
+    --cdbg_rgb: 158, 189, 230;
+    --clbg: #95bfe7;
+    --cd: #6ea0e6;
+    --cl: #1c69d6;
+    --cdt: #042545;
+    --clt: #1f4171;
+    --co: black;
+}
+
+
+.dark-theme {
+    // .theme_svg {
+    //     filter: invert(90%);
+    // }
+    @include dark-theme
+}
+
+.light-theme {
+    // .theme_svg {
+    //     filter: invert(90%);
+    // }
+    @include light-theme
+}

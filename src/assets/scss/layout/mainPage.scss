@@ -1,0 +1,37 @@
+#mainPage {
+    position: absolute;
+    inset: 5rem 0 0 0;
+    padding: $gap;
+    gap: $gap;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu {
+    min-width: 10rem;
+    width: 15%;
+    border-radius: $gap;
+    background-color: var(--cd);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#menu::-webkit-scrollbar { 
+    display: none;
+}
+
+#explorer {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gap;
+    padding: $gap;
+    border-radius: $gap;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: var(--clt);
+}
+
+#explorer::-webkit-scrollbar { 
+    display: none;
+}

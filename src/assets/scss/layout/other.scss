@@ -1,0 +1,19 @@
+#app {
+	overflow: hidden;
+}
+
+#top {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	user-select: none;
+
+	background-color: var(--cdbg);
+	color: var(--clt);
+	font-size: $font-size-article;
+	line-height: $line-height-article;
+}
+
+#top::-webkit-scrollbar { 
+    display: none;
+}

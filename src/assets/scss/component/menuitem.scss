@@ -1,0 +1,16 @@
+
+.menuitem-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuitem {
+    height: 4rem;
+    font-size: $font-size-title;
+    line-height: 4rem;
+    padding-left: 0px;
+}
+
+.menuitem img {
+    height: 2rem;
+}
