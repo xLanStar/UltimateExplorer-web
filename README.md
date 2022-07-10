@@ -1,6 +1,11 @@
 # Ultimate Explorer - Web
 
-這是個 Ultimate Explorer 的網頁，需要將輸出的網頁放到 Ultimate Explorer 的伺服器中指定的網頁資料夾，才能夠運行。
+這個只是 Ultimate Explorer 的前端網頁，並不包含後端伺服器。需要將輸出的網頁放到 Ultimate Explorer 的伺服器中指定的網頁資料夾，才能夠運行。
+
+---
+
+## 預覽
+![a](https://i.imgur.com/q3FjjzY.png)
 
 ---
 
